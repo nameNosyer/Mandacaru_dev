@@ -76,3 +76,33 @@
   top: 950px;
   width: 250px;
 }
+#Portifolio {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .destaques3 {
+    color: rgb(228, 50, 213);
+    text-shadow: 1px 1px 3px rgba(247, 0, 255, 0.603);
+  }
+  .container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 180px;
+  }
+  .container .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    border-radius: 7px;
+  }
+  .container .card .face.face1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    border-radius: 7px;
+  }
