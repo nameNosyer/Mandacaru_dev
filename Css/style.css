@@ -153,3 +153,70 @@
     background: #333;
     color: #fff;
   }
+  #Contate-nos {
+    color: white;
+    padding: 200px;
+    padding-left: 250px;
+  }
+  .form {
+    padding: 50px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+    box-shadow: 0px 0px 21px -1px rgb(30, 49, 216);
+    border-radius: 10px;
+  }
+  .form_content {
+    margin-bottom: 10px;
+  }
+  .input_name {
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    padding-right: 113px;
+    border-width: 1px;
+  }
+  .input_mail {
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    padding-right: 109px;
+    border-width: 1px;
+  }
+  .input_number {
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    padding-right: 95px;
+    border-width: 1px;
+  }
+  .input_msg {
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    padding-right: 80px;
+    border-width: 1px;
+  }
+  .destaques4 {
+    color: white;
+    text-shadow: 0px 0px 15px rgb(30, 49, 216);
+  }
+  button {
+    position: absolute;
+    right: 720px;
+    top: 2515px;
+    border-radius: 15px;
+    padding: 9px;
+    color: rgb(99, 99, 99);
+    border-width: 1px;
+  }
+  button:hover {
+    background: rgba(74, 77, 252, 0.377);
+    color: #fff;
+  }
+  .bar {
+    position: absolute;
+    top: 2330px;
+    margin-left: 400px;
+    border-left: 1px solid rgb(49, 49, 49);
+    height: 200px;
+  }
