@@ -34,3 +34,27 @@ function entrar_reyson() {
 function sair_reyson() {
   nome3.innerText = "Reyson Renan";
 }
+
+$('.menu a[href^="#"]').on("click", function (e) {
+  e.preventDefault();
+  var id = $(this).attr("href"),
+    targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    500
+  );
+});
+
+$(function () {
+  $(document).on("scroll", function () {
+    if ($(window).scrollTop() > 100) {
+      $(".smoothscroll-top").addClass("show");
+    } else {
+      $(".smoothscroll-top").removeClass("show");
+    }
+  });
+  $(".smoothscroll-top").on("click", scrollToTop);
+});
