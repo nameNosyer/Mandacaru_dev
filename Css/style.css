@@ -282,3 +282,13 @@
   width: 70px;
   border-radius: 5px;
 }
+.user_info h1 {
+  font-size: 18px;
+  color: #636363;
+  margin: 10px 0;
+}
+
+.user_info p {
+  color: #a1a1a1;
+  font-size: 12px;
+}
