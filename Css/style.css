@@ -127,3 +127,29 @@
     text-align: center;
     font-size: 1.5em;
   }
+  .container .card .face.face2 {
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 23px 5px rgba(255, 0, 179, 0.28);
+    transform: translateY(-100px);
+  }
+  .container .card:hover .face.face2 {
+    transform: translateY(0);
+  }
+  .container .card .face.face2 .content .name {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 7px;
+  }
+  .container .card .face.face2 .content .name:hover {
+    background: #333;
+    color: #fff;
+  }
