@@ -26,7 +26,10 @@
 .item {
   margin-left: 3rem;
 }
-
+.logo {
+  width: 100px;
+  margin-right: 5rem;
+}
 #Inicio {
   padding-top: 30px;
   padding-bottom: 250px;
@@ -49,4 +52,27 @@
   font-weight: bold;
   color: #04aa6d;
   text-shadow: 1px 1px 3px rgba(0, 196, 75, 0.603);
+}
+#Informacoes {
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.info_text {
+  box-shadow: 0px 0px 23px 5px rgba(255, 196, 0, 0.28);
+  padding: 20px;
+  border-radius: 7px;
+  font-size: 25px;
+  margin-right: 500px;
+  margin-left: 100px;
+}
+.destaques2 {
+  color: rgba(255, 196, 0, 0.712);
+  text-shadow: 1px 1px 3px rgba(255, 196, 0, 0.603);
+}
+.info_img {
+  position: absolute;
+  left: 1000px;
+  top: 950px;
+  width: 250px;
 }
