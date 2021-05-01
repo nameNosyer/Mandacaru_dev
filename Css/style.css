@@ -269,3 +269,16 @@
     border-left: 10px;
     border-right: 10px;
   }
+.insta:hover .card_redes,
+.linkedin:hover .card_redes,
+.github:hover .card_redes {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+.card_redes .user_img img {
+  height: 70px;
+  margin-right: 20px;
+  width: 70px;
+  border-radius: 5px;
+}
