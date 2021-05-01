@@ -312,3 +312,33 @@ footer {
   top: 2832px;
   opacity: 0.5;
 }
+#rodape_info {
+    position: absolute;
+    top: 2832;
+    left: 1000px;
+  }
+  .rodape_lista {
+    margin-bottom: 20px;
+    display: flex;
+    list-style: none;
+    height: 20px;
+  }
+  .link_rodape {
+    opacity: 0.5;
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+  }
+  .link_rodape:hover {
+    opacity: 0.8;
+  }
+  #Desenvolvedores {
+    position: absolute;
+    top: 2900px;
+    left: 455px;
+    padding-bottom: 20px;
+  }
+  .devs {
+    display: flex;
+    list-style: none;
+  }
