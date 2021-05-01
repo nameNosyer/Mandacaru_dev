@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #0d1117;
-  }
+}
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: #080a0c;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 7px;
+        background-color: #181e25;
+      }
   html {
     font-family: "Nunito", sans-serif;
 }
