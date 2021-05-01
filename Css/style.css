@@ -342,3 +342,30 @@ footer {
     display: flex;
     list-style: none;
   }
+#Lucas_Tavares,
+#Rafael_Barroso,
+#Reyson_Renan {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  opacity: 0.5;
+}
+#Lucas_Tavares:hover,
+#Rafael_Barroso:hover,
+#Reyson_Renan:hover {
+  opacity: 0.8;
+}
+.nomes_devs {
+  position: absolute;
+  top: 2900px;
+  left: 250px;
+}
+.nomes {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  opacity: 0.5;
+}
+hr {
+  opacity: 0.1;
+}
