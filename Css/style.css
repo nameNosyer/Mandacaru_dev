@@ -220,3 +220,52 @@
     border-left: 1px solid rgb(49, 49, 49);
     height: 200px;
   }
+  .container_redes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    position: relative;
+    bottom: 115px;
+    left: 220px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 7px 15px;
+    width: 43px;
+    height: 43px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 21px -1px rgb(30, 49, 216);
+    cursor: pointer;
+  }
+  
+  .card_redes {
+    top: -100px;
+    left: -5px;
+    width: 280px;
+    height: 100px;
+    box-shadow: 0px 0px 43px 15px rgba(30, 49, 216, 0.22);
+    border-radius: 8px;
+    padding: 10px;
+    justify-content: space-around;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .card_redes:after {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+  }
