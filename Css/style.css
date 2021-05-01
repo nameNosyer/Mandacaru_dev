@@ -26,3 +26,27 @@
 .item {
   margin-left: 3rem;
 }
+
+#Inicio {
+  padding-top: 30px;
+  padding-bottom: 250px;
+}
+.title {
+  margin-top: 250px;
+  text-align: center;
+  color: #04aa6d;
+  font-weight: bold;
+  text-shadow: 1px 3px 8px rgba(0, 196, 75, 0.603);
+  font-size: 55px;
+}
+.title2 {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 23px;
+}
+.destaques {
+  font-weight: bold;
+  color: #04aa6d;
+  text-shadow: 1px 1px 3px rgba(0, 196, 75, 0.603);
+}
