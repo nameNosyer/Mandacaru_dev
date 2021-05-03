@@ -240,9 +240,9 @@
   .input_msg {
     color: white;
     border-radius: 10px;
-    padding-bottom: 50px;
-    padding-right: 80px;
+    padding-bottom: 20px;
     border-width: 1px;
+    width: 19em
   }
   .destaques4 {
     color: white;
